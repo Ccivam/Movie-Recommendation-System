@@ -26,3 +26,23 @@ watched by the targeted user and have been rated more than 3 by the most similar
        similarity between the i
        th and j
        th movie.
+ 
+ Data Description
+ 
+ 
+movies.csv-> Contains 3 columns named: movieId , title , genres
+movieId:Ids of different movies
+title: Name of the movies
+Dimension of the dataset:9742 rows × 3 columns
+
+
+
+ratings.csv ->Contains 4 columns:
+userId: Ids of different users
+movieId: Ids of different movies
+rating: rating given by a particular user to a particular movie
+Timestamp:time spent in watching a particular movie by a particular user
+Dimension of the dataset:(100836 rows × 4 columns)
+
+
+
